@@ -50,3 +50,5 @@ func main() {
         fmt.Println("Eres menor de edad.")
     }
 }
+
+//add estructuras de control
