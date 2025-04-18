@@ -13,7 +13,7 @@ func main() {
 
 	fmt.Println("Mi nombre:", name, "Año:", anio)
 
-} */
+} 
 
 import (
 	"fmt"
@@ -36,4 +36,17 @@ func main() {
 	anioNacimiento := anioActual - edad
 
 	fmt.Printf("Hola %s de %s, naciste en %d\n", name, pais, anioNacimiento)
+}
+	*/
+
+	import "fmt"
+
+func main() {
+    edad := 18
+
+    if edad >= 18 {
+        fmt.Println("Eres mayor de edad.")
+    } else {
+        fmt.Println("Eres menor de edad.")
+    }
 }
